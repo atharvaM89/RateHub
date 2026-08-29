@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.production
+.env.local
+
+# Databases & Prisma
+/prisma/migrations/
+/backend/prisma/migrations/
+*.db
+*.db-journal
+
+# Next/React builds
+/dist/
+/build/
+/.next/
+/out/
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker
+docker-compose.override.yml
